@@ -11,3 +11,7 @@ Design: https://uidesigndaily.com/posts/photoshop-recipe-card-food-day-473
 3.Accordion
 A creative accordion.
 Design: https://uidesigndaily.com/posts/sketch-accordion-day-1220
+
+4.Sharing
+A Sharing button with a modal options.
+Design: https://uidesigndaily.com/posts/photoshop-sharing-share-social-day-495
