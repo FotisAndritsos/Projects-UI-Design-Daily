@@ -39,9 +39,6 @@ a {
   border-radius: 100%;
   z-index: 1;
 }
-.options {
-  display: none;
-}
 .list-container {
   position: relative;
   z-index: 2;
@@ -54,6 +51,7 @@ a {
   overflow: hidden;
 }
 header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -96,19 +94,26 @@ ion-icon {
   justify-content: center;
   color: #fff;
   background-color: #4171b6;
-  z-index: 1;
+  
 }
 .not-icon,
 .search-icon {
   cursor: pointer;
 }
+.client-list{
+  position: relative;
+}
 .client-item {
   cursor: pointer;
+  transform: translateX(0);
   padding: 0.6rem;
   margin-bottom: 0.4rem;
   -webkit-box-shadow: 0px 0px 5px -1px #9ab0d6;
   box-shadow: 0px 0px 5px -1px #9ab0d6;
-  transition: 0.5s all ease;
+  transition: 0.3s all ease;
+}
+.client-item.active{
+  transform: translateX(-50%);
 }
 .client-item:hover {
   background-color: #eaefff;
@@ -119,6 +124,7 @@ ion-icon {
   justify-content: flex-start;
   margin-bottom: 0.6rem;
 }
+
 .item-head span {
   width: 20px;
   height: 20px;
@@ -184,6 +190,59 @@ ion-icon {
   background-color: #4171b6;
   border-radius: 100%;
   cursor: pointer;
+  transition: 0.3s all ease;
+}
+/* .add-item.act {
+  bottom: 0;
+  right: 0; 
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background-color: #4171b6;
+  cursor: pointer;
+} */
+.modal-client{
+   position: absolute;
+  bottom: 0;
+  right: 0;
+  width:0;
+  height: 0;
+  border-radius: 100%;
+  transition: 0.5s all ease; 
+}
+.modal-client.active{
+  position: absolute;
+  border-radius: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4171b6;
+}
+.modal-client h2{
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transform: scale(0);
+  transition: 2s all ease;
+  
+}
+.modal-client.active h2{
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  transform: scale(1);
+  transition: 0.6 all ease;
+}
+.close-icon-item{
+  position: absolute;
+  right: 0.8rem;
+  top: 0.8rem;
+  color: #fff;
+  cursor: pointer;
 }
 .add-item:hover {
   -webkit-box-shadow: 0px 0px 12px -1px #9ab0d6;
@@ -195,4 +254,91 @@ ion-icon {
   left: 15%;
   color: white;
   font-size: 1.5rem;
+}
+.plus-icon.act{
+  display: none;
+}
+
+.options{
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
+  transform: translateX(-100%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.3s all ease;
+}
+.options.active {
+  display: flex;
+  transform: translateX(100%);
+}
+.invoice,.delete{
+  font-size: 0.6rem;
+  font-weight: 600;
+  transition: 0.3s all;
+}
+.invoice{
+  color: #4171B6;
+}
+.delete{
+  color: #EA547B;
+}
+.invoice:hover{
+  color: #7ea7e2;
+}
+.delete:hover{
+  color: #e987a1;
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  transform: translateY(-200%);
+  background-color: #92bffd;
+  color:  #4171b6;
+  -webkit-box-shadow: 0px 0px 5px -1px #9ab0d6;
+  box-shadow: 0px 0px 5px -1px #9ab0d6;
+  transition: 0.3s all ease;
+  z-index: 99;
+}
+.search.active{
+  transform: translateY(0);
+}
+.search input{
+  width: 80%;
+  outline: none;
+  border: none;
+  padding-bottom: 0.1rem;
+  background-color: transparent;
+  border-bottom: 1px solid #E1E1F3;
+  color: white;
+  font-weight: 500;
+  pointer-events: initial;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.search input::placeholder{
+  color: #fff;
+}
+.close-icon{
+  z-index: 100;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.4rem;
+  color: #fff;
+  cursor: pointer;
 }
