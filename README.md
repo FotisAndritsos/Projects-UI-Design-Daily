@@ -7,6 +7,7 @@ Design: https://uidesigndaily.com/posts/sketch-footer-ui-design-newsletter-links
 2.Recipe Card
 This is a recipe card.
 Design: https://uidesigndaily.com/posts/photoshop-recipe-card-food-day-473
+Photo used form Unsplash.com
 
 3.Accordion
 A creative accordion.
@@ -19,3 +20,8 @@ Design: https://uidesigndaily.com/posts/photoshop-sharing-share-social-day-495
 5.Client Liste
 A Client list UI for a mobile app.
 Design: https://uidesigndaily.com/posts/photoshop-clients-list-card-mobile-day-501
+
+6.Client Liste
+A Client list UI for a mobile app.
+Design: https://uidesigndaily.com/posts/photoshop-clients-list-card-mobile-day-501
+The company logos used are from stickpng.com
