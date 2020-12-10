@@ -40,7 +40,7 @@ client.forEach((cli,ind) => {
   let gii = cli.childNodes;
   for(let x=0; x<gii.length; x++){
     gii[x].addEventListener('click',e =>{
-      let lol = e.target;
+      // let lol = e.target;
       client[ind].classList.toggle("active");
     })
   }
