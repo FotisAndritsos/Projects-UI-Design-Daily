@@ -21,7 +21,7 @@ Design: https://uidesigndaily.com/posts/photoshop-sharing-share-social-day-495
 A Client list UI for a mobile app.
 Design: https://uidesigndaily.com/posts/photoshop-clients-list-card-mobile-day-501
 
-6.Client Liste
-A Client list UI for a mobile app.
-Design: https://uidesigndaily.com/posts/photoshop-clients-list-card-mobile-day-501
+6.Company card 
+A Company card  stats with  slider.
+Design: https://uidesigndaily.com/posts/photoshop-company-card-stats-profile-day-435
 The company logos used are from stickpng.com
