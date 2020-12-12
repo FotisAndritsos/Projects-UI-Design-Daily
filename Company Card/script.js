@@ -13,7 +13,7 @@ const statsAnimation = () => {
     // console.log(Number(statsNumArray[index].innerHTML));
     // console.log(statsValArray[index]);
     var width = 1;
-    var id = setInterval(frame, 20);
+    var id = setInterval(frame, 15);
     function frame() {
       if (width >= statsNumArray[index].innerHTML) {
         clearInterval(id);
@@ -35,31 +35,31 @@ const gspAnimation = () => {
       color: "inherit",
     },
     {
-      duration: 0.2,
+      duration: 0.1,
       color: "orange",
-      delay: 2,
+      delay: 1,
     }
   )
     .fromTo(
       ".ratings span:nth-child(2)",
       { color: "inherit" },
-      { duration: 0.2, color: "orange" }
+      { duration: 0.1, color: "orange" }
     )
     .fromTo(
       ".ratings span:nth-child(3)",
       { color: "inherit" },
-      { duration: 0.2, color: "orange" }
+      { duration: 0.1, color: "orange" }
     )
     .fromTo(
       ".ratings span:nth-child(4)",
       { color: "inherit" },
-      { duration: 0.2, color: "orange" }
+      { duration: 0.1, color: "orange" }
     )
     .fromTo(".last", { color: "inherit" }, { duration: 0.2, color: "orange" })
     .fromTo("img",{
       transform: "scale(1)",
     }, {
-      duration: 2,
+      duration: 1,
       transform: "scale(1.3)",
       runBackwards: true,
       ease: "power1",
