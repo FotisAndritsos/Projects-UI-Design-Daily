@@ -73,6 +73,7 @@ a {
   align-items: center;
   justify-content: center;
   margin-bottom: 0.5rem;
+  overflow: hidden;
 }
 img {
   width: 80px;
@@ -98,9 +99,9 @@ img {
 .reviews {
   color: white;
 }
-.checked {
+/* .checked{
   color: orange;
-}
+} */
 .top-right {
   flex: 2;
   padding-left: 1rem;
@@ -166,6 +167,7 @@ img {
 .openings {
   color: #e0575e;
 }
+
 .bottom-right {
   flex: 2;
   padding-left: 1rem;

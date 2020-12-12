@@ -25,3 +25,4 @@ Design: https://uidesigndaily.com/posts/photoshop-clients-list-card-mobile-day-5
 A Company card  stats with  slider.
 Design: https://uidesigndaily.com/posts/photoshop-company-card-stats-profile-day-435
 The company logos used are from stickpng.com
+Also there are some experiments with gsap animation and more.
