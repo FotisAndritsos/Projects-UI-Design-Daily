@@ -19,8 +19,8 @@ Design: https://uidesigndaily.com/posts/sketch-accordion-day-1220
 A Sharing button with a modal options.
 Design: https://uidesigndaily.com/posts/photoshop-sharing-share-social-day-495
 
-5.Client Liste
-A Client list UI for a mobile app.
+5.Clients List
+A Clients list UI for a mobile app.
 Design: https://uidesigndaily.com/posts/photoshop-clients-list-card-mobile-day-501
 
 6.Company card 
