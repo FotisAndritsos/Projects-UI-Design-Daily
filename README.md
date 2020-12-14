@@ -1,5 +1,7 @@
 # This project/projects are about creating some of the ui designs from https://uidesigndaily.com/.
 
+All projects are also deployed at Netlify in a live website.
+
 1.Footer UI
 This is a footer section design
 Design: https://uidesigndaily.com/posts/sketch-footer-ui-design-newsletter-links-day-1195
